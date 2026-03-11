@@ -43,15 +43,25 @@ A C++ playground for experimenting with images loaded using **Starlet Serializer
 - `--mode, -m <mode>` - Output mode: `ascii` or `ascii_colour` (default: ascii)
 
 ## Prerequisites
-- CMake 3.14+
 - C++20 compatible compiler
+- One of the following Build Systems,
+    - CMake 3.14+
+    - Meson 1.1+
 
 ## Building the Project
-This project uses **CMake**. Follow these steps to build:
-
 ```bash
 git clone https://github.com/starlet-engine/image-sandbox.git
 cd starlet-image-sandbox
+```
+
+### CMake
+```bash
 cmake -B build
 cmake --build build
+```
+
+### Meson
+```bash
+meson setup build
+meson compile -C build
 ```
