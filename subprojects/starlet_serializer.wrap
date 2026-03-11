@@ -1,0 +1,7 @@
+[wrap-git]
+url = https://github.com/starlet-engine/serializer.git
+revision = main
+depth = 1
+
+[provide]
+starlet_serializer = starlet_serializer_dep
