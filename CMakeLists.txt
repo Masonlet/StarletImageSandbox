@@ -29,7 +29,7 @@ source_group("Assets" FILES ${ASSETS})
 if(NOT BUILD_LOCAL)
   include(FetchContent)
   FetchContent_Declare(starlet_serializer 
-    GIT_REPOSITORY https://github.com/masonlet/starlet-serializer.git 
+    GIT_REPOSITORY https://github.com/starlet-engine/serializer.git 
     GIT_TAG main
   )
   FetchContent_MakeAvailable(starlet_serializer)

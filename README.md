@@ -42,8 +42,6 @@ A C++ playground for experimenting with images loaded using **Starlet Serializer
 - `--gradient, -g <str>` - ASCII gradient string (default: '@%#*+=-:. ')
 - `--mode, -m <mode>` - Output mode: `ascii` or `ascii_colour` (default: ascii)
 
-<br/>
-
 ## Prerequisites
 - CMake 3.14+
 - C++20 compatible compiler
@@ -52,13 +50,8 @@ A C++ playground for experimenting with images loaded using **Starlet Serializer
 This project uses **CMake**. Follow these steps to build:
 
 ```bash
-# Clone the Repostiory
-git clone https://github.com/masonlet/starlet-image-sandbox.git
+git clone https://github.com/starlet-engine/image-sandbox.git
 cd starlet-image-sandbox
-
-# Configure and build
 cmake -B build
-cmake --build build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON 
+cmake --build build
 ```
-`-DCMAKE_EXPORT_COMPILE_COMMANDS=ON` flag generates a `compile_commands.json` file  
-Can be safely omitted on Windows if you're using Visual Studio
