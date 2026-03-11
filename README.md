@@ -6,6 +6,7 @@
 A C++ playground for experimenting with images loaded using **Starlet Serializer.**
 
 ## Features
+
 - Supported Image Formats: **BMP**, **TGA**
 
 - Output to **Console ASCII**
@@ -41,6 +42,9 @@ A C++ playground for experimenting with images loaded using **Starlet Serializer
 - `--scale-y, -y <int>` - Vertical scaling factor (default: 32)
 - `--gradient, -g <str>` - ASCII gradient string (default: '@%#*+=-:. ')
 - `--mode, -m <mode>` - Output mode: `ascii` or `ascii_colour` (default: ascii)
+
+## Dependencies
+- [starlet-serializer](https://github.com/starlet-engine/serializer) (auto-fetched)
 
 ## Prerequisites
 - C++20 compatible compiler
