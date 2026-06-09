@@ -44,7 +44,7 @@ A C++ playground for experimenting with images loaded using **Starlet Serializer
 - `--mode, -m <mode>` - Output mode: `ascii` or `ascii_colour` (default: ascii)
 
 ## Dependencies
-- [starlet-serializer](https://github.com/starlet-engine/serializer) (auto-fetched)
+- [starlet-serializer](https://github.com/starlet-libs/serializer) (auto-fetched)
 
 ## Prerequisites
 - C++20 compatible compiler
