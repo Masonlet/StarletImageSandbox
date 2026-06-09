@@ -54,7 +54,7 @@ A C++ playground for experimenting with images loaded using **Starlet Serializer
 
 ## Building the Project
 ```bash
-git clone https://github.com/starlet-engine/image-sandbox.git
+git clone https://github.com/masonlet/starlet-image-sandbox.git
 cd starlet-image-sandbox
 ```
 
