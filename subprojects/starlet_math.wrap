@@ -1,2 +1,7 @@
-[wrap-redirect]
-filename = starlet_serializer/subprojects/starlet_math.wrap
+[wrap-git]
+url = https://github.com/starlet-engine/math.git
+revision = main
+depth = 1
+
+[provide]
+starlet_math = starlet_math_dep
