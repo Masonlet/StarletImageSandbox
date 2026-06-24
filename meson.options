@@ -1,1 +1,0 @@
-option('build_local', type : 'boolean', value : false, description : 'Link against local serializer instead of fetching')
