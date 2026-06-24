@@ -12,12 +12,7 @@ sources = [
 
 asset_dir = meson.current_source_dir() / 'assets'
 
-if not get_option('build_local')
-  starlet_serializer = subproject('starlet_serializer')
-  serializer_dep = starlet_serializer.get_variable('starlet_serializer_dep')
-else
-  serializer_dep = dependency('starlet_serializer')
-endif
+serializer_dep = dependency('starlet_serializer')
 
 executable('starlet_image_sandbox',
   sources,
